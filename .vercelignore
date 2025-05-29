@@ -1,0 +1,12 @@
+# .vercelignore
+db.sqlite3
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+*.db
+*.log
+.DS_Store
+assets/
