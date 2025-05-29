@@ -1,50 +1,102 @@
 
 # 🤖 Mimir - AI Chatbot Web App
 
-Mimir is a sleek and modern AI chatbot web app built with Flask, Bootstrap, and ChatterBot. It features a fully responsive UI with dark mode styling, smooth animations, and minimal design — no white anywhere!
+**"A minimalist AI companion built with Flask & ChatterBot."**
 
-![Project Screenshot](static/images/screenshot.png)
+**Mimir** is a sleek, modern chatbot web app using **Flask (Python)**, **ChatterBot**, and **Bootstrap 5**. It allows users to chat with an AI bot in real-time via a clean, animated UI with a dark aesthetic — no white anywhere.
 
-## 🚀 Features
-- Flask-powered backend with ChatterBot AI
-- Modern minimal UI (Bootstrap 5)
-- Smooth animations and background graphics
-- Footer with developer info and social links
-- Lightweight and easy to deploy
+---
 
-## 🌐 [View Live Demo](https://khanfaisal.netlify.app)  
-🔗 *(Replace with actual deployed app URL)*
+## 🌐 View Live Project
 
-## 🛠 Tech Stack
-- Python (Flask)
-- HTML5 / CSS3 / Bootstrap 5
-- JavaScript (AJAX)
-- ChatterBot
+👉 [Mimir Chatbot Live](https://khanfaisal.netlify.app) *(replace with your deployment link)*
 
-## 📁 Setup Instructions
+---
+
+## ✨ Features
+
+- **💬 Real-time Chatbot:** Talk to Mimir, a conversational AI powered by ChatterBot.
+- **🎨 Dark Mode UI:** Cool modern design with gradients, soft shadows, and no white.
+- **🌀 Smooth Animations:** Fade-ins, transitions, and minimal interaction effects.
+- **🖼️ Background Graphics:** Light SVG patterns with modern design elements.
+- **📱 Responsive Layout:** Perfect on mobile, tablet, and desktop.
+- **📌 Fixed Footer:** Footer with developer links and social profiles.
+
+---
+
+## 📁 Project Structure
+
+```
+mimir_chatbot/
+├── app.py                  # Flask backend
+├── chatbot.py              # ChatterBot logic and training
+├── db.sqlite3              # ChatterBot's SQLite database
+├── requirements.txt        # Python dependencies
+├── vercel.json             # Vercel deployment configuration
+├── README.md               # Project documentation
+├── templates/
+│   └── index.html          # Main chat interface
+└── static/
+    └── styles/
+        └── style.css       # Theme styles & animations
+```
+
+---
+
+## 🧪 Setup & Installation
+
+1. **Clone the repository**:
 
 ```bash
-# Clone the repository
-git clone https://github.com/khanfaisal79960/mimir-chatbot.git
+git clone <repository_url>
 cd mimir-chatbot
+```
 
-# Create a virtual environment and activate it
+2. **Create a virtual environment**:
+
+```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
 
-# Install dependencies
+3. **Activate the environment**:
+
+- **Windows:** `venv\Scripts\activate`
+- **macOS/Linux:** `source venv/bin/activate`
+
+4. **Install dependencies**:
+
+```bash
 pip install -r requirements.txt
+```
 
-# Run the Flask app
+5. **Run the application**:
+
+```bash
 python app.py
 ```
 
-Then open `http://127.0.0.1:5000` in your browser.
+6. **Open in browser**:  
+Visit `http://127.0.0.1:5000`
 
-## 👤 Author
+---
 
-**Faisal Khan**  
-[Portfolio](https://khanfaisal.netlify.app) | [GitHub](https://github.com/khanfaisal79960) | [LinkedIn](https://www.linkedin.com/in/khanfaisal79960) | [Medium](https://medium.com/@khanfaisal79960) | [Instagram](https://instagram.com/mr._perfect_1004)
+## 🖼️ Screenshots
+
+> Replace with your actual UI screenshots in the static/images/ folder
+
+![Chat UI](assets/screenshot.png)
+
+---
+
+## 👨‍💻 Developer
+
+**Faisal Khan**
+
+- 🌐 [Portfolio](https://khanfaisal.netlify.app)
+- 💻 [GitHub](https://github.com/khanfaisal79960)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/khanfaisal79960)
+- ✍️ [Medium](https://medium.com/@khanfaisal79960)
+- 📷 [Instagram](https://instagram.com/mr._perfect_1004)
 
 ---
 
