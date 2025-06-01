@@ -48,8 +48,8 @@ mimir_chatbot/
 1. **Clone the repository**:
 
 ```bash
-git clone <repository_url>
-cd mimir-chatbot
+git clone https://github.com/khanfaisal79960.Mimir.git
+cd Mimir
 ```
 
 2. **Create a virtual environment**:
