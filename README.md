@@ -1,6 +1,8 @@
 
 # 🤖 Mimir - AI Chatbot Web App
 
+![Banner](./assets/cover_image.png)
+
 **"A minimalist AI companion built with Flask & ChatterBot."**
 
 **Mimir** is a sleek, modern chatbot web app using **Flask (Python)**, **ChatterBot**, and **Bootstrap 5**. It allows users to chat with an AI bot in real-time via a clean, animated UI with a dark aesthetic — no white anywhere.
