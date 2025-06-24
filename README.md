@@ -11,7 +11,7 @@
 
 ## 🌐 View Live Project
 
-👉 [Mimir Chatbot Live](https://mimir-r2z1.onrender.com/) *(replace with your deployment link)*
+👉 [Mimir Chatbot Live](https://mimir-r2z1.onrender.com/)
 
 ---
 
